@@ -1,4 +1,4 @@
-<body name="root_1" pos="1.5 0 0" euler="0 -1.57079633 -1.57079633">
+<body name="root_1" pos="0 0 0" euler="0 0 0">
             <joint name="root_1" type="free" />
             <geom pos="0 0.0746667 0" type="sphere" size="0.096" rgba="0 0 1 0.5" />
             <body name="chest_1" pos="0 0.2518944 0">
