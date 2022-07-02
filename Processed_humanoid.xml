@@ -1,0 +1,64 @@
+<mujoco model="dumpUrdf">
+    <compiler angle="radian" />
+    <size njmax="500" nconmax="100" />
+    <worldbody>
+        <body name="root_1" pos="0 0 0" euler="0 -1.57079633 -1.57079633">
+            <joint name="root_1" type="free" />
+            <geom pos="0 0.0746667 0" type="sphere" size="0.096" rgba="0 0 1 0.5" />
+            <body name="chest_1" pos="0 0.2518944 0">
+                <joint name="chest_1" pos="0 0 0" type="ball" />
+                <geom pos="0 0.128 0" type="sphere" size="0.117333" rgba="0 1 0 0.5" />
+                <body name="neck_1" pos="0 0.238820267 0">
+                    <joint name="neck_1" pos="0 0 0" type="ball" />
+                    <geom pos="0 0.18667 0" type="sphere" size="0.109333" rgba="1 0 0 0.5" />
+                </body>
+                <body name="right_shoulder_1" pos="-.0256533 0.259733 0.19531733">
+                    <joint name="right_shoulder_1" pos="0 0 0" type="ball" />
+                    <geom pos="0 -0.14933 0" quat="0.707107 -0.707107 0 0" type="capsule" size="0.048 0.096" />
+                    <body name="right_elbow_1" pos="0 -0.2931066 0">
+                        <joint name="right_elbow_1" pos="0 0 0" axis="0 0 1" limited="true" range="0 3.14" />
+                        <geom pos="0 -0.128 0" quat="0.707107 -0.707107 0 0" type="capsule" size="0.04266 0.072" />
+                        <body name="right_wrist_1" pos="0 -0.27621066 0">
+                            <geom type="sphere" size="0.04266" rgba="0 1 0 0.5" />
+                        </body>
+                    </body>
+                </body>
+                <body name="left_shoulder_1" pos="-0.0256533 0.259733 -0.19531733">
+                    <joint name="left_shoulder_1" pos="0 0 0" type="ball" />
+                    <geom pos="0 -0.14933 0" quat="0.707107 -0.707107 0 0" type="capsule" size="0.048 0.096" />
+                    <body name="left_elbow_1" pos="0 -0.2931066 0">
+                        <joint name="left_elbow_1" pos="0 0 0" axis="0 0 1" limited="true" range="0 3.14" />
+                        <geom pos="0 -0.128 0" quat="0.707107 -0.707107 0 0" type="capsule" size="0.04266 0.072" />
+                        <body name="left_wrist_1" pos="0 -0.27621066 0">
+                            <geom type="sphere" size="0.04266" rgba="0 1 0 0.5" />
+                        </body>
+                    </body>
+                </body>
+            </body>
+            <body name="right_hip_1" pos="0 0 0.090546133">
+                <joint name="right_hip_1" pos="0 0 0" type="ball" />
+                <geom pos="0 -0.224 0" quat="0.707107 -0.707107 0 0" type="capsule" size="0.05866 0.16" />
+                <body name="right_knee_1" pos="0 -0.449648 0">
+                    <joint name="right_knee_1" pos="0 0 0" axis="0 0 1" limited="true" range="-3.14 0" />
+                    <geom pos="0 -0.2133 0" quat="0.707107 -0.707107 0 0" type="capsule" size="0.0533 0.16533" />
+                    <body name="right_ankle_1" pos="0 -0.43719466 0">
+                        <joint name="right_ankle_1" pos="0 0 0" type="ball" />
+                        <geom pos="0.048 -0.024 0" type="box" size="0.0944 0.02933 0.048" rgba="0 1 0 0.5" />
+                    </body>
+                </body>
+            </body>
+            <body name="left_hip_1" pos="0 0 -0.090546133">
+                <joint name="left_hip_1" pos="0 0 0" type="ball" />
+                <geom pos="0 -0.224 0" quat="0.707107 -0.707107 0 0" type="capsule" size="0.05866 0.16" />
+                <body name="left_knee_1" pos="0 -0.449648 0">
+                    <joint name="left_knee_1" pos="0 0 0" axis="0 0 1" limited="true" range="-3.14 0" />
+                    <geom pos="0 -0.2133 0" quat="0.707107 -0.707107 0 0" type="capsule" size="0.0533 0.16533" />
+                    <body name="left_ankle_1" pos="0 -0.43719466 0">
+                        <joint name="left_ankle_1" pos="0 0 0" type="ball" />
+                        <geom pos="0.048 -0.024 0" type="box" size="0.0944 0.02933 0.048" rgba="0 1 0 0.5" />
+                    </body>
+                </body>
+            </body>
+        </body>
+    </worldbody>
+</mujoco>
