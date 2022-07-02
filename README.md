@@ -3,7 +3,7 @@ pybullet humanoid translated to mujoco
 
 Pybullet humanoid: [humanoid.urdf](https://github.com/bulletphysics/bullet3/blob/master/examples/pybullet/gym/pybullet_data/humanoid/humanoid.urdf)
 
-Mujoco Orignial Humanoid" [huamnoid.xml]()
+Mujoco Orignial Humanoid" [huamnoid.xml](https://github.com/deepmind/mujoco/blob/main/model/humanoid/humanoid.xml)
 
 Translated via mujoco's compile.cc and then manually processed.
 
