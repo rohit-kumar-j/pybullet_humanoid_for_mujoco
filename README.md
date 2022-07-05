@@ -1,5 +1,5 @@
 # pybullet_humanoid_for_mujoco
-pybullet humanoid translated to mujoco
+pybullet humanoid translated for mujoco
 
 Pybullet humanoid: [humanoid.urdf](https://github.com/bulletphysics/bullet3/blob/master/examples/pybullet/gym/pybullet_data/humanoid/humanoid.urdf)
 
